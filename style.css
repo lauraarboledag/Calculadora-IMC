@@ -1,0 +1,38 @@
+body {
+    background-image: url(background.jpg);
+    justify-content: center;
+
+}
+
+.container {
+    vertical-align: middle;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(20, 112, 89);
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    border-radius: 32px;
+    opacity: .9;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+form {
+    text-align: center;
+    color: antiquewhite;
+    font-style:oblique;
+}
+
+input[type="text"] {
+    caret-color: rgb(75, 36, 182)
+}

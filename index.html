@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="Author" content="Laura Arboleda">
+        <meta name="keywords" content="calculadora, IMC">
+        <link rel="stylesheet" href="style.css">
+        <script src=js/calculo.js></script>
+        <title>Calculadora de índice de masa muscular</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <h1>Calculadora de índice de masa muscular</h1>
+                <h2>¡Asegúrate de estar saludable!</h2>
+                <hr>
+                <form id="formulario" onsubmit="calcularIMC(); return false">
+                    <label for="nombre"><b>Ingrese su nombre:<b></label>
+                    <input type="text" id="nombre">
+                    <br><br>
+                    <label for="altura"><b>Escriba su altura actual (cm):</b></label>
+                    <input type="text" id="altura" required="required">
+                    <br><br>
+                    <label for="peso"><b>Escriba su peso actual (kg):</b></label>
+                    <input type="text" id="peso" required="required">
+                    <br><br>
+                    <button type="submit">Calcular IMC</button>
+                    <div id="resultado"><p>Este es el resultado: </p></div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
